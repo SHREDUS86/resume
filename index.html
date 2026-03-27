@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muataz Kadhim | Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Small internal tweak since you don't have a CSS file */
+        body { background-color: #f8f9fa; }
+        .resume-section { margin-bottom: 3rem; }
+    </style>
+</head>
+<body>
+
+<div class="container my-5">
+    <div class="row align-items-center bg-white shadow-sm p-4 rounded-4 mb-5">
+        <div class="col-md-3 text-center">
+            <img src="./assets/portrait.jpg" class="img-fluid rounded-circle border border-4 border-primary shadow" alt="Muataz Kadhim" style="width: 180px; height: 180px; object-fit: cover;object-position: center 10%;">
+        </div>
+        <div class="col-md-9">
+            <h1 class="display-4 fw-bold text-primary">Muataz Kadhim Tuaimah</h1>
+            <p class="lead text-secondary">IT Support Professional & Full Stack Web Developer</p>
+            <div class="d-flex gap-2 mt-3">
+                <span class="badge bg-primary px-3 py-2">CCNA</span>
+                <span class="badge bg-dark px-3 py-2">CompTIA A+</span>
+                <span class="badge bg-info text-dark px-3 py-2">MCP</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-8">
+            <section class="resume-section">
+                <h2 class="border-bottom pb-2 mb-3"><i class="bi bi-person-fill"></i> Summary</h2>
+                <p class="fs-5">I am a dedicated IT support professional and a passionate student of full-stack web development, bridging the gap between hardware infrastructure and software solutions.</p>
+            </section>
+
+            <section class="resume-section">
+                <h2 class="border-bottom pb-2 mb-4">Work Experience</h2>
+                
+                <div class="mb-4 border-start border-4 border-primary ps-3">
+                    <h4 class="fw-bold mb-0">IT Technician</h4>
+                    <span class="text-muted d-block mb-2">Official Institution | Sept 2013 - Present</span>
+                    <ul class="text-secondary">
+                        <li>Network Technician & Windows Server Administrator.</li>
+                        <li>Providing high-level consumer support and technical troubleshooting.</li>
+                        <li>Currently developing Full-Stack Web Development skills, building applications using HTML, CSS, JavaScript, and Node.js.</li>
+                    </ul>
+                </div>
+
+                <div class="mb-4 border-start border-4 border-light ps-3">
+                    <h4 class="fw-bold mb-0">Interpreter/Translator</h4>
+                    <span class="text-muted d-block mb-2">Official Institution | April 2012 - Sept 2013</span>
+                    <ul class="text-secondary">
+                        <li>Translated official documents between English and Arabic.</li>
+                        <li>Acted as a live translator for international workshops and meetings.</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card border-0 shadow-sm p-4 mb-4">
+                <h4 class="fw-bold text-primary">Skills</h4>
+                <div class="mb-3">
+                    <label class="small fw-bold">Apple OSX</label>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar bg-success" style="width: 100%"></div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="small fw-bold">Microsoft Office</label>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="small fw-bold">Networking (Cisco)</label>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar bg-warning" style="width: 90%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card border-0 shadow-sm p-4">
+                <h4 class="fw-bold text-primary">Education</h4>
+                <p class="mb-0 fw-bold">Bachelor of English Language Education</p>
+                <p class="small text-muted">Education University</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-12">
+            <h2 class="border-bottom pb-2 mb-4">Awards & Certifications</h2>
+            <div class="row row-cols-1 row-cols-md-2 g-3">
+                <div class="col"><li class="list-group-item">Cisco Certified Network Associate (CCNA)</li></div>
+                <div class="col"><li class="list-group-item">Cisco CCNA Voice</li></div>
+                <div class="col"><li class="list-group-item">Microsoft Certified Technology Specialist</li></div>
+                <div class="col"><li class="list-group-item">Networking Fundamentals (MTA)</li></div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center mt-1 pt-1 border-top">
+        <a href="./contact.html" class="btn btn-lg btn-outline-primary rounded-pill px-5">Contact Me</a>
+        <p class="mt-3 text-muted">Hobbies: Competitive Video Gamer 🎮</p>
+        <p class="text-muted">© <span id="currentYear"></span> Muataz Kadhim Tuaimah</p>
+    </footer>
+</div>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
+
+
+
+
